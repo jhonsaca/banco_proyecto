@@ -4,15 +4,17 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     //Proyecto realizado por: Jhon Saca
-    
+    //Variables públicas accesibles a los métodos para poder realizar calculos
+    //y manipular los datos
     public static double total_balance = 1599.99;
     public static Scanner entry = new Scanner(System.in);
 
     public static void main(String[] args) {
-    //Variables
+        //Variables
         String client_name = "Andrew Quezada";
         String account_type= "Corriente";
-
+        //Mensajes de bienvenida
+        //Welcoming messages
         System.out.println("Bienvenido a nuestro programa.");
         System.out.println("Nombre de cliente: " + client_name);
         System.out.println("Tipo de cuenta: " + account_type);
@@ -20,8 +22,9 @@ public class Main {
         menu();
     }
 
+    //Metodo para invocar el menu de opciones
+    //Options menu method
     public static void menu(){
-
         int choice;
         System.out.println("Que operación desea realizar?");
         System.out.println("1. Consultar su saldo");
@@ -32,6 +35,7 @@ public class Main {
         seleccion(choice);
     }
 
+    //Metodo para manipular el comportamiento del menu
     public  static void seleccion(int respuesta){
         switch (respuesta){
             case 1:
