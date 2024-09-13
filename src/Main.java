@@ -3,6 +3,8 @@ import java.util.Scanner;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+    //Proyecto realizado por: Jhon Saca
+    
     public static double total_balance = 1599.99;
     public static Scanner entry = new Scanner(System.in);
 
