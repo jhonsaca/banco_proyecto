@@ -1,2 +1,4 @@
-Proyecto realizado por Jhon Saca como parte del aula 1 de la formación "Java orientado a objetos"
-Made by Jhon Saca as a part of "Object-oriented Java" classroom 1.
+# Banco
+Proyecto realizado por Jhon Saca. <br>
+Lenguaje utilizado: Java <br>
+Proyecto básico, utilizado como introducción al desarrollo con Java. <br>
